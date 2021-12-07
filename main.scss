@@ -1,0 +1,16 @@
+@import "build/scss/variables";
+
+@mixin button-m {
+  font-size: $font-body-m-font-size;
+  font-family: $font-body-m-font-family;
+  color: $color-light;
+  line-height: $font-body-m-line-height;
+  text-decoration: $font-body-m-text-decoration;
+}
+
+//.button {
+//  &-primary {
+//    background-color: $color-one-primary;
+//    @include button-m;
+//  }
+//}
